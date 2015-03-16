@@ -46,7 +46,7 @@ body {
 	text-transform: uppercase;
 	color: white;
 	font-weight: bolder;
-transition: all 0.6s linear;
+transition: all 0.3s linear;
 }
 .menu ul li:first-child {
 	border-radius: 2px 0 0 2px;
@@ -56,8 +56,14 @@ transition: all 0.6s linear;
 }
 .menu ul li:hover {
 	/*background: white;*/
-	color: black;
-opacity: .5;
+	color: orange;
+	opacity: .9;
+}
+
+.menu ul li:active {
+	color: orange;
+	opacity: 1;
+	transition: all 0.1s linear;
 }
 .menu ul li a {
 	display: block;
