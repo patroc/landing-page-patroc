@@ -55,7 +55,7 @@ transition: all 0.6s linear;
 	border-radius: 0 2px 2px 0;
 }
 .menu ul li:hover {
-	background: white;
+	/*background: white;*/
 	color: black;
 opacity: .5;
 }
